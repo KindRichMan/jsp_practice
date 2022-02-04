@@ -37,10 +37,11 @@
 		%>
 		
 		<br/>
-		
+		List&lt;Integer&gt; 를 사용했습니다.
 	</p>
 </body>
 </html>
+
 
 
 

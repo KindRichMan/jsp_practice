@@ -5,7 +5,7 @@
        // name "apple"에 딸려온 데이터 조회
        String id = request.getParameter("apple");
        // name "banana"에 딸려온 데이터를 변수 pw에 저장 후 body에 출력해보세요.
-        String password = request.getParameter("banana");
+        String pw= request.getParameter("banana");
        //checkbox에 딸려온 데이터를 변수 hobby에 저장 후 body에 출력해보세요.
        String[] hobby = request.getParameterValues("hobby");
        String major = request.getParameter("major");
@@ -18,7 +18,7 @@
 </head>
 <body>
       전송받은 아이디 : <%= id %><br>
-      전송받은 비밀번호 :<%= password %><br>
+      전송받은 비밀번호 :<%= pw %><br>
       전송받은 취미 : <%= Arrays.toString(hobby) %><br>
       <hr/>
      <%--취미를 for문으로 출력하기 --%> 
