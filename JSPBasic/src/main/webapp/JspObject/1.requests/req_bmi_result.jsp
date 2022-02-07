@@ -27,7 +27,7 @@
          String strKg = request.getParameter("weight"); 
          
          double cm = Double.parseDouble(strCm);
-         double km = Double.parseDouble(strKg);
+         double kg = Double.parseDouble(strKg);
          
          // BMI 계산공식 [체중 / 신장(m) * 신장(m) ]
          double bmi = kg / (cm/100 * cm/100);

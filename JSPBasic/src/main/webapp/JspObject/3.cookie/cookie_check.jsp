@@ -7,6 +7,7 @@
     String str = null;
     
     boolean flag = false;
+  
     for(int i = 0; i < cookies.length; i++){
     	str = cookies[i].getName(); // 쿠키 이름을 얻어오는 메서드
     	//system.out.println(str);
@@ -18,6 +19,9 @@
             flag = true;
             break;
     	}
+    }
+    if(!flag){
+    	out.println("땅콩쿠키가 사라졌습니다.<br/>");
     }
     
     %>
