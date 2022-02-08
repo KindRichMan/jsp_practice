@@ -688,3 +688,384 @@
 2월 07, 2022 15:07:36.620 [21392:7180:0207/150736.619:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
 2월 07, 2022 15:07:36.623 [21392:17852:0207/150736.623:ERROR:device_event_log_impl.cc(214)] [15:07:36.623] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
 2월 07, 2022 15:07:36.646 [21392:17852:0207/150736.646:ERROR:device_event_log_impl.cc(214)] [15:07:36.646] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 16:24:19.122 [19692:20112:0207/162419.122:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 16:24:19.124 [19692:20112:0207/162419.122:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 16:24:19.124 [19692:20112:0207/162419.122:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 16:24:19.124 [19692:20112:0207/162419.122:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 16:24:19.125 [19692:18828:0207/162419.125:ERROR:device_event_log_impl.cc(214)] [16:24:19.126] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 16:24:19.150 [19692:18828:0207/162419.150:ERROR:device_event_log_impl.cc(214)] [16:24:19.150] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+2월 07, 2022 16:31:58.516 NEW SESSION
+2월 07, 2022 16:31:58.516 [20804:10952:0207/163158.515:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 16:31:58.516 [20804:10952:0207/163158.515:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 16:31:58.516 [20804:10952:0207/163158.515:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 16:31:58.516 [20804:10952:0207/163158.515:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 16:31:58.518 [20804:15668:0207/163158.518:ERROR:device_event_log_impl.cc(214)] [16:31:58.518] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 16:31:58.542 [20804:15668:0207/163158.542:ERROR:device_event_log_impl.cc(214)] [16:31:58.542] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 16:32:38.426 [13708:3268:0207/163238.425:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 16:32:38.426 [13708:3268:0207/163238.425:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 16:32:38.426 [13708:3268:0207/163238.425:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 16:32:38.427 [13708:3268:0207/163238.426:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 16:32:38.430 [13708:10980:0207/163238.429:ERROR:device_event_log_impl.cc(214)] [16:32:38.429] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 16:32:38.453 [13708:10980:0207/163238.453:ERROR:device_event_log_impl.cc(214)] [16:32:38.452] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 16:33:47.635 [19760:13704:0207/163347.634:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 16:33:47.635 [19760:13704:0207/163347.634:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 16:33:47.635 [19760:13704:0207/163347.634:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 16:33:47.636 [19760:13704:0207/163347.635:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 16:33:47.639 [19760:11028:0207/163347.639:ERROR:device_event_log_impl.cc(214)] [16:33:47.639] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 16:33:47.661 [19760:11028:0207/163347.661:ERROR:device_event_log_impl.cc(214)] [16:33:47.661] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 16:44:30.796 [3760:15688:0207/164430.795:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 16:44:30.798 [3760:15688:0207/164430.795:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 16:44:30.798 [3760:15688:0207/164430.795:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 16:44:30.798 [3760:15688:0207/164430.796:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 16:44:30.799 [3760:3676:0207/164430.799:ERROR:device_event_log_impl.cc(214)] [16:44:30.799] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 16:44:30.823 [3760:3676:0207/164430.822:ERROR:device_event_log_impl.cc(214)] [16:44:30.822] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 16:59:20.484 [15020:20772:0207/165920.484:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 16:59:20.485 [15020:20772:0207/165920.484:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 16:59:20.485 [15020:20772:0207/165920.484:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 16:59:20.486 [15020:20772:0207/165920.484:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 16:59:20.487 [15020:17976:0207/165920.487:ERROR:device_event_log_impl.cc(214)] [16:59:20.487] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 16:59:20.512 [15020:17976:0207/165920.512:ERROR:device_event_log_impl.cc(214)] [16:59:20.512] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 19:59:16.271 [6000:17984:0207/195916.270:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 19:59:16.272 [6000:17984:0207/195916.270:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 19:59:16.272 [6000:17984:0207/195916.270:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 19:59:16.272 [6000:17984:0207/195916.271:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 19:59:16.274 [6000:18964:0207/195916.274:ERROR:device_event_log_impl.cc(214)] [19:59:16.275] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 19:59:16.297 [6000:18964:0207/195916.297:ERROR:device_event_log_impl.cc(214)] [19:59:16.298] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:07:46.227 [19804:1836:0207/200746.226:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:07:46.227 [19804:1836:0207/200746.226:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 20:07:46.228 [19804:1836:0207/200746.226:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:07:46.228 [19804:1836:0207/200746.227:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 20:07:46.231 [19804:14960:0207/200746.231:ERROR:device_event_log_impl.cc(214)] [20:07:46.231] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:07:46.253 [19804:14960:0207/200746.253:ERROR:device_event_log_impl.cc(214)] [20:07:46.254] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:15:02.813 [6916:9132:0207/201502.812:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:15:02.813 [6916:9132:0207/201502.812:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 20:15:02.813 [6916:9132:0207/201502.812:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:15:02.813 [6916:9132:0207/201502.813:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 20:15:02.816 [6916:13956:0207/201502.816:ERROR:device_event_log_impl.cc(214)] [20:15:02.816] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:15:02.839 [6916:13956:0207/201502.839:ERROR:device_event_log_impl.cc(214)] [20:15:02.839] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:15:48.741 [17080:7292:0207/201548.741:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:15:48.741 [17080:7292:0207/201548.741:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 20:15:48.741 [17080:7292:0207/201548.741:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:15:48.741 [17080:7292:0207/201548.741:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 20:15:48.744 [17080:5412:0207/201548.744:ERROR:device_event_log_impl.cc(214)] [20:15:48.744] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:15:48.768 [17080:5412:0207/201548.767:ERROR:device_event_log_impl.cc(214)] [20:15:48.767] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:16:13.520 [21180:2704:0207/201613.520:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:16:13.520 [21180:2704:0207/201613.520:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 20:16:13.520 [21180:2704:0207/201613.520:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:16:13.521 [21180:2704:0207/201613.520:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 20:16:13.523 [21180:20208:0207/201613.523:ERROR:device_event_log_impl.cc(214)] [20:16:13.523] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:16:13.548 [21180:20208:0207/201613.548:ERROR:device_event_log_impl.cc(214)] [20:16:13.548] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:20:55.832 [868:18356:0207/202055.832:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:20:55.832 [868:18356:0207/202055.832:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 20:20:55.832 [868:18356:0207/202055.832:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:20:55.832 [868:18356:0207/202055.832:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 20:20:55.835 [868:18964:0207/202055.835:ERROR:device_event_log_impl.cc(214)] [20:20:55.835] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:20:55.859 [868:18964:0207/202055.858:ERROR:device_event_log_impl.cc(214)] [20:20:55.858] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:21:05.859 [12240:19856:0207/202105.858:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:21:05.859 [12240:19856:0207/202105.858:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 20:21:05.859 [12240:19856:0207/202105.858:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:21:05.859 [12240:19856:0207/202105.859:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 20:21:05.862 [12240:4732:0207/202105.862:ERROR:device_event_log_impl.cc(214)] [20:21:05.862] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:21:05.884 [12240:4732:0207/202105.884:ERROR:device_event_log_impl.cc(214)] [20:21:05.885] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:23:49.101 [20260:20536:0207/202349.100:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:23:49.101 [20260:20536:0207/202349.100:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 20:23:49.101 [20260:20536:0207/202349.100:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:23:49.101 [20260:20536:0207/202349.101:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 20:23:49.104 [20260:7572:0207/202349.104:ERROR:device_event_log_impl.cc(214)] [20:23:49.104] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:23:49.127 [20260:7572:0207/202349.127:ERROR:device_event_log_impl.cc(214)] [20:23:49.127] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:36:57.152 [15156:5268:0207/203657.151:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:36:57.152 [15156:5268:0207/203657.151:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 20:36:57.152 [15156:5268:0207/203657.151:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:36:57.152 [15156:5268:0207/203657.152:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 20:36:57.155 [15156:17224:0207/203657.155:ERROR:device_event_log_impl.cc(214)] [20:36:57.154] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:36:57.178 [15156:17224:0207/203657.178:ERROR:device_event_log_impl.cc(214)] [20:36:57.178] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:37:19.36 [9376:3268:0207/203719.036:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:37:19.36 [9376:3268:0207/203719.036:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 20:37:19.36 [9376:3268:0207/203719.036:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:37:19.36 [9376:3268:0207/203719.036:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 20:37:19.39 [9376:13788:0207/203719.039:ERROR:device_event_log_impl.cc(214)] [20:37:19.039] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:37:19.62 [9376:13788:0207/203719.061:ERROR:device_event_log_impl.cc(214)] [20:37:19.061] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:37:47.589 [21180:18916:0207/203747.589:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:37:47.589 [21180:18916:0207/203747.589:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 20:37:47.589 [21180:18916:0207/203747.589:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:37:47.590 [21180:18916:0207/203747.589:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 20:37:47.592 [21180:19136:0207/203747.592:ERROR:device_event_log_impl.cc(214)] [20:37:47.592] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:37:47.616 [21180:19136:0207/203747.616:ERROR:device_event_log_impl.cc(214)] [20:37:47.616] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:44:18.762 [1776:2340:0207/204418.762:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:44:18.762 [1776:2340:0207/204418.762:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 20:44:18.762 [1776:2340:0207/204418.762:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:44:18.763 [1776:2340:0207/204418.762:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 20:44:18.765 [1776:19948:0207/204418.765:ERROR:device_event_log_impl.cc(214)] [20:44:18.765] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:44:18.788 [1776:19948:0207/204418.787:ERROR:device_event_log_impl.cc(214)] [20:44:18.787] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:47:35.444 [20420:21048:0207/204735.443:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:47:35.444 [20420:21048:0207/204735.443:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 20:47:35.444 [20420:21048:0207/204735.444:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:47:35.444 [20420:21048:0207/204735.444:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 20:47:35.447 [20420:1648:0207/204735.447:ERROR:device_event_log_impl.cc(214)] [20:47:35.447] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:47:35.472 [20420:1648:0207/204735.471:ERROR:device_event_log_impl.cc(214)] [20:47:35.470] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:48:00.822 [11456:6456:0207/204800.822:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:48:00.823 [11456:6456:0207/204800.822:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 20:48:00.824 [11456:6456:0207/204800.822:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:48:00.824 [11456:6456:0207/204800.823:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 20:48:00.828 [11456:10628:0207/204800.828:ERROR:device_event_log_impl.cc(214)] [20:48:00.828] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:48:00.851 [11456:10628:0207/204800.851:ERROR:device_event_log_impl.cc(214)] [20:48:00.851] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:48:31.709 [20364:17504:0207/204831.709:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:48:31.709 [20364:17504:0207/204831.709:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 20:48:31.710 [20364:17504:0207/204831.709:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:48:31.710 [20364:17504:0207/204831.709:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 20:48:31.712 [20364:11848:0207/204831.712:ERROR:device_event_log_impl.cc(214)] [20:48:31.712] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:48:31.736 [20364:11848:0207/204831.735:ERROR:device_event_log_impl.cc(214)] [20:48:31.735] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:49:36.981 [8464:19812:0207/204936.981:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:49:36.981 [8464:19812:0207/204936.981:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 20:49:36.981 [8464:19812:0207/204936.981:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:49:36.982 [8464:19812:0207/204936.981:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 20:49:36.985 [8464:17812:0207/204936.984:ERROR:device_event_log_impl.cc(214)] [20:49:36.984] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:49:37.08 [8464:17812:0207/204937.008:ERROR:device_event_log_impl.cc(214)] [20:49:37.008] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:51:21.13 [9956:21404:0207/205121.013:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:51:21.13 [9956:21404:0207/205121.013:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 20:51:21.13 [9956:21404:0207/205121.013:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:51:21.14 [9956:21404:0207/205121.013:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 20:51:21.17 [9956:13792:0207/205121.016:ERROR:device_event_log_impl.cc(214)] [20:51:21.017] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:51:21.39 [9956:13792:0207/205121.038:ERROR:device_event_log_impl.cc(214)] [20:51:21.039] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:58:37.34 [4272:3648:0207/205837.034:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:58:37.34 [4272:3648:0207/205837.034:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 20:58:37.35 [4272:3648:0207/205837.034:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 20:58:37.35 [4272:3648:0207/205837.034:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 20:58:37.38 [4272:13332:0207/205837.037:ERROR:device_event_log_impl.cc(214)] [20:58:37.038] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 20:58:37.60 [4272:13332:0207/205837.060:ERROR:device_event_log_impl.cc(214)] [20:58:37.060] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 22:13:25.979 [12152:17068:0207/221325.978:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 22:13:25.979 [12152:17068:0207/221325.978:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 22:13:25.980 [12152:17068:0207/221325.979:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 22:13:25.980 [12152:17068:0207/221325.979:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 22:13:25.983 [12152:15384:0207/221325.983:ERROR:device_event_log_impl.cc(214)] [22:13:25.982] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 22:13:26.05 [12152:15384:0207/221326.005:ERROR:device_event_log_impl.cc(214)] [22:13:26.004] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 22:13:42.904 [19784:5824:0207/221342.904:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 22:13:42.904 [19784:5824:0207/221342.904:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 22:13:42.904 [19784:5824:0207/221342.904:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 22:13:42.905 [19784:5824:0207/221342.904:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 22:13:42.907 [19784:5996:0207/221342.907:ERROR:device_event_log_impl.cc(214)] [22:13:42.907] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 22:13:42.931 [19784:5996:0207/221342.930:ERROR:device_event_log_impl.cc(214)] [22:13:42.930] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 22:15:14.814 [19540:12476:0207/221514.814:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 22:15:14.814 [19540:12476:0207/221514.814:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 22:15:14.814 [19540:12476:0207/221514.814:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 22:15:14.814 [19540:12476:0207/221514.814:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 22:15:14.817 [19540:11304:0207/221514.817:ERROR:device_event_log_impl.cc(214)] [22:15:14.816] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 22:15:14.839 [19540:11304:0207/221514.839:ERROR:device_event_log_impl.cc(214)] [22:15:14.838] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+2월 07, 2022 22:50:34.22 NEW SESSION
+2월 07, 2022 22:50:34.22 [7748:1844:0207/225034.020:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 22:50:34.22 [7748:1844:0207/225034.020:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 22:50:34.23 [7748:1844:0207/225034.020:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 22:50:34.23 [7748:1844:0207/225034.020:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 22:50:34.26 [7748:19876:0207/225034.026:ERROR:device_event_log_impl.cc(214)] [22:50:34.025] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 22:50:34.50 [7748:19876:0207/225034.050:ERROR:device_event_log_impl.cc(214)] [22:50:34.049] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 22:52:25.498 [13788:3952:0207/225225.498:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 22:52:25.498 [13788:3952:0207/225225.498:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 22:52:25.499 [13788:3952:0207/225225.498:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 22:52:25.500 [13788:3952:0207/225225.498:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 22:52:25.506 [13788:20352:0207/225225.505:ERROR:device_event_log_impl.cc(214)] [22:52:25.505] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 22:52:25.528 [13788:20352:0207/225225.528:ERROR:device_event_log_impl.cc(214)] [22:52:25.528] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 23:02:17.399 [20584:21408:0207/230217.399:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 23:02:17.400 [20584:21408:0207/230217.399:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 23:02:17.400 [20584:21408:0207/230217.399:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 23:02:17.400 [20584:21408:0207/230217.400:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 23:02:17.405 [20584:15980:0207/230217.405:ERROR:device_event_log_impl.cc(214)] [23:02:17.405] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 23:02:17.426 [20584:15980:0207/230217.426:ERROR:device_event_log_impl.cc(214)] [23:02:17.426] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 23:07:40.401 [18756:20596:0207/230740.400:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 23:07:40.401 [18756:20596:0207/230740.400:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 23:07:40.401 [18756:20596:0207/230740.400:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 23:07:40.401 [18756:20596:0207/230740.401:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 23:07:40.407 [18756:5800:0207/230740.406:ERROR:device_event_log_impl.cc(214)] [23:07:40.405] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 23:07:40.429 [18756:5800:0207/230740.429:ERROR:device_event_log_impl.cc(214)] [23:07:40.429] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 23:09:43.971 [11120:8364:0207/230943.971:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 23:09:43.971 [11120:8364:0207/230943.971:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 23:09:43.971 [11120:8364:0207/230943.971:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 23:09:43.971 [11120:8364:0207/230943.971:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 23:09:43.976 [11120:15272:0207/230943.976:ERROR:device_event_log_impl.cc(214)] [23:09:43.977] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 23:09:44.00 [11120:15272:0207/230944.000:ERROR:device_event_log_impl.cc(214)] [23:09:44.001] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 23:11:09.248 [12588:7596:0207/231109.248:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 23:11:09.249 [12588:7596:0207/231109.248:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 23:11:09.249 [12588:7596:0207/231109.248:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 23:11:09.249 [12588:7596:0207/231109.249:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 23:11:09.252 [12588:17504:0207/231109.252:ERROR:device_event_log_impl.cc(214)] [23:11:09.252] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 23:11:09.276 [12588:17504:0207/231109.276:ERROR:device_event_log_impl.cc(214)] [23:11:09.276] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 23:40:44.450 [176:6104:0207/234044.450:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 23:40:44.451 [176:6104:0207/234044.450:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 07, 2022 23:40:44.451 [176:6104:0207/234044.450:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 07, 2022 23:40:44.451 [176:6104:0207/234044.451:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 07, 2022 23:40:44.454 [176:16892:0207/234044.454:ERROR:device_event_log_impl.cc(214)] [23:40:44.454] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 07, 2022 23:40:44.478 [176:16892:0207/234044.478:ERROR:device_event_log_impl.cc(214)] [23:40:44.478] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+2월 08, 2022 24:34:27.713 NEW SESSION
+2월 08, 2022 24:34:27.713 [18500:5268:0208/003427.712:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 24:34:27.713 [18500:5268:0208/003427.712:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 24:34:27.713 [18500:5268:0208/003427.712:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 24:34:27.714 [18500:5268:0208/003427.712:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 24:34:27.716 [18500:17432:0208/003427.716:ERROR:device_event_log_impl.cc(214)] [00:34:27.717] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 24:34:27.738 [18500:17432:0208/003427.738:ERROR:device_event_log_impl.cc(214)] [00:34:27.739] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 24:35:25.635 [3812:8472:0208/003525.635:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 24:35:25.635 [3812:8472:0208/003525.635:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 24:35:25.635 [3812:8472:0208/003525.635:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 24:35:25.635 [3812:8472:0208/003525.635:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 24:35:25.638 [3812:8344:0208/003525.638:ERROR:device_event_log_impl.cc(214)] [00:35:25.638] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 24:35:25.661 [3812:8344:0208/003525.661:ERROR:device_event_log_impl.cc(214)] [00:35:25.661] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 24:38:46.337 [13132:19944:0208/003846.337:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 24:38:46.338 [13132:19944:0208/003846.337:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 24:38:46.338 [13132:19944:0208/003846.337:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 24:38:46.338 [13132:19944:0208/003846.337:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 24:38:46.340 [13132:18476:0208/003846.340:ERROR:device_event_log_impl.cc(214)] [00:38:46.340] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 24:38:46.364 [13132:18476:0208/003846.364:ERROR:device_event_log_impl.cc(214)] [00:38:46.363] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 24:39:10.788 [14232:4828:0208/003910.788:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 24:39:10.788 [14232:4828:0208/003910.788:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 24:39:10.788 [14232:4828:0208/003910.788:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 24:39:10.789 [14232:4828:0208/003910.788:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 24:39:10.791 [14232:19924:0208/003910.791:ERROR:device_event_log_impl.cc(214)] [00:39:10.790] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 24:39:10.814 [14232:19924:0208/003910.814:ERROR:device_event_log_impl.cc(214)] [00:39:10.813] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+2월 08, 2022 09:31:18.365 NEW SESSION
+2월 08, 2022 09:31:18.365 [19804:14812:0208/093118.364:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 09:31:18.366 [19804:14812:0208/093118.364:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 09:31:18.366 [19804:14812:0208/093118.364:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 09:31:18.366 [19804:14812:0208/093118.365:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 09:31:18.368 [19804:20088:0208/093118.367:ERROR:device_event_log_impl.cc(214)] [09:31:18.367] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 09:31:18.391 [19804:20088:0208/093118.391:ERROR:device_event_log_impl.cc(214)] [09:31:18.391] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 09:32:50.254 [15632:3612:0208/093250.254:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 09:32:50.255 [15632:3612:0208/093250.254:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 09:32:50.255 [15632:3612:0208/093250.254:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 09:32:50.255 [15632:3612:0208/093250.254:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 09:32:50.259 [15632:1756:0208/093250.259:ERROR:device_event_log_impl.cc(214)] [09:32:50.259] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 09:32:50.282 [15632:1756:0208/093250.282:ERROR:device_event_log_impl.cc(214)] [09:32:50.281] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 09:42:32.11 [14904:8056:0208/094232.011:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 09:42:32.11 [14904:8056:0208/094232.011:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 09:42:32.12 [14904:8056:0208/094232.011:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 09:42:32.12 [14904:8056:0208/094232.011:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 09:42:32.15 [14904:10440:0208/094232.015:ERROR:device_event_log_impl.cc(214)] [09:42:32.015] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 09:42:32.37 [14904:10440:0208/094232.037:ERROR:device_event_log_impl.cc(214)] [09:42:32.037] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 10:07:07.522 [5680:6552:0208/100707.522:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 10:07:07.522 [5680:6552:0208/100707.522:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 10:07:07.522 [5680:6552:0208/100707.522:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 10:07:07.523 [5680:6552:0208/100707.522:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 10:07:07.525 [5680:16456:0208/100707.525:ERROR:device_event_log_impl.cc(214)] [10:07:07.525] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 10:07:07.547 [5680:16456:0208/100707.547:ERROR:device_event_log_impl.cc(214)] [10:07:07.547] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 10:10:36.136 [12412:17216:0208/101036.135:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 10:10:36.136 [12412:17216:0208/101036.135:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 10:10:36.136 [12412:17216:0208/101036.135:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 10:10:36.136 [12412:17216:0208/101036.136:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 10:10:36.139 [12412:21332:0208/101036.139:ERROR:device_event_log_impl.cc(214)] [10:10:36.139] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 10:10:36.162 [12412:21332:0208/101036.162:ERROR:device_event_log_impl.cc(214)] [10:10:36.162] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 10:23:34.981 [21140:11464:0208/102334.981:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 10:23:34.982 [21140:11464:0208/102334.981:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 10:23:34.982 [21140:11464:0208/102334.981:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 10:23:34.982 [21140:11464:0208/102334.981:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 10:23:34.986 [21140:15012:0208/102334.986:ERROR:device_event_log_impl.cc(214)] [10:23:34.986] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 10:23:35.09 [21140:15012:0208/102335.009:ERROR:device_event_log_impl.cc(214)] [10:23:35.009] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 10:27:04.562 [11656:2684:0208/102704.562:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 10:27:04.562 [11656:2684:0208/102704.562:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 10:27:04.563 [11656:2684:0208/102704.562:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 10:27:04.563 [11656:2684:0208/102704.562:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 10:27:04.565 [11656:19980:0208/102704.565:ERROR:device_event_log_impl.cc(214)] [10:27:04.565] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 10:27:04.589 [11656:19980:0208/102704.589:ERROR:device_event_log_impl.cc(214)] [10:27:04.589] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 10:36:45.05 [11028:9692:0208/103645.004:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 10:36:45.05 [11028:9692:0208/103645.005:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 10:36:45.05 [11028:9692:0208/103645.005:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 10:36:45.05 [11028:9692:0208/103645.005:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 10:36:45.08 [11028:9368:0208/103645.008:ERROR:device_event_log_impl.cc(214)] [10:36:45.008] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 10:36:45.31 [11028:9368:0208/103645.031:ERROR:device_event_log_impl.cc(214)] [10:36:45.031] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 10:36:45.266 [11028:9368:0208/103645.266:ERROR:gcm_message_cryptographer.cc(376)] Unable to transform the record.
+2월 08, 2022 10:42:10.347 [1448:8064:0208/104210.347:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 10:42:10.348 [1448:8064:0208/104210.347:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 10:42:10.348 [1448:8064:0208/104210.347:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 10:42:10.348 [1448:8064:0208/104210.348:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 10:42:10.350 [1448:5460:0208/104210.350:ERROR:device_event_log_impl.cc(214)] [10:42:10.351] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 10:42:10.374 [1448:5460:0208/104210.374:ERROR:device_event_log_impl.cc(214)] [10:42:10.374] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 11:30:51.322 [9276:19136:0208/113051.321:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 11:30:51.322 [9276:19136:0208/113051.321:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 11:30:51.322 [9276:19136:0208/113051.321:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 11:30:51.323 [9276:19136:0208/113051.322:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 11:30:51.325 [9276:16776:0208/113051.325:ERROR:device_event_log_impl.cc(214)] [11:30:51.325] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 11:30:51.348 [9276:16776:0208/113051.348:ERROR:device_event_log_impl.cc(214)] [11:30:51.348] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 11:42:21.885 [19604:18880:0208/114221.885:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 11:42:21.885 [19604:18880:0208/114221.885:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 11:42:21.885 [19604:18880:0208/114221.885:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 11:42:21.886 [19604:18880:0208/114221.885:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 11:42:21.888 [19604:4120:0208/114221.888:ERROR:device_event_log_impl.cc(214)] [11:42:21.887] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 11:42:21.911 [19604:4120:0208/114221.910:ERROR:device_event_log_impl.cc(214)] [11:42:21.910] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 11:45:49.37 [1804:14856:0208/114549.037:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 11:45:49.38 [1804:14856:0208/114549.037:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 11:45:49.38 [1804:14856:0208/114549.037:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 11:45:49.38 [1804:14856:0208/114549.038:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 11:45:49.40 [1804:11408:0208/114549.040:ERROR:device_event_log_impl.cc(214)] [11:45:49.039] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 11:45:49.62 [1804:11408:0208/114549.062:ERROR:device_event_log_impl.cc(214)] [11:45:49.061] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 11:47:48.929 [20916:20580:0208/114748.929:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 11:47:48.929 [20916:20580:0208/114748.929:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 11:47:48.930 [20916:20580:0208/114748.929:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 11:47:48.930 [20916:20580:0208/114748.929:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 11:47:48.941 [20916:1976:0208/114748.941:ERROR:device_event_log_impl.cc(214)] [11:47:48.941] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 11:47:48.963 [20916:1976:0208/114748.963:ERROR:device_event_log_impl.cc(214)] [11:47:48.962] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 11:49:53.775 [10516:15472:0208/114953.775:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 11:49:53.775 [10516:15472:0208/114953.775:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 11:49:53.776 [10516:15472:0208/114953.775:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 11:49:53.776 [10516:15472:0208/114953.775:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 11:49:53.779 [10516:14844:0208/114953.779:ERROR:device_event_log_impl.cc(214)] [11:49:53.778] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 11:49:53.801 [10516:14844:0208/114953.801:ERROR:device_event_log_impl.cc(214)] [11:49:53.800] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 11:50:42.621 [11200:21320:0208/115042.620:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 11:50:42.621 [11200:21320:0208/115042.620:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 11:50:42.621 [11200:21320:0208/115042.620:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 11:50:42.622 [11200:21320:0208/115042.621:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 11:50:42.624 [11200:6372:0208/115042.624:ERROR:device_event_log_impl.cc(214)] [11:50:42.624] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 11:50:42.647 [11200:6372:0208/115042.647:ERROR:device_event_log_impl.cc(214)] [11:50:42.647] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 11:51:12.40 [8996:11408:0208/115112.040:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 11:51:12.40 [8996:11408:0208/115112.040:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 11:51:12.41 [8996:11408:0208/115112.040:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 11:51:12.41 [8996:11408:0208/115112.040:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 11:51:12.44 [8996:17536:0208/115112.044:ERROR:device_event_log_impl.cc(214)] [11:51:12.043] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 11:51:12.68 [8996:17536:0208/115112.067:ERROR:device_event_log_impl.cc(214)] [11:51:12.067] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 12:13:15.613 [18008:17852:0208/121315.613:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 12:13:15.613 [18008:17852:0208/121315.613:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 12:13:15.614 [18008:17852:0208/121315.613:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 12:13:15.614 [18008:17852:0208/121315.613:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 12:13:15.618 [18008:9920:0208/121315.617:ERROR:device_event_log_impl.cc(214)] [12:13:15.617] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 12:13:15.640 [18008:9920:0208/121315.640:ERROR:device_event_log_impl.cc(214)] [12:13:15.640] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 12:23:39.524 [17760:9152:0208/122339.524:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 12:23:39.525 [17760:9152:0208/122339.524:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 12:23:39.525 [17760:9152:0208/122339.524:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 12:23:39.525 [17760:9152:0208/122339.524:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 12:23:39.528 [17760:16776:0208/122339.528:ERROR:device_event_log_impl.cc(214)] [12:23:39.529] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 12:23:39.551 [17760:16776:0208/122339.551:ERROR:device_event_log_impl.cc(214)] [12:23:39.551] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 12:23:46.346 [16120:952:0208/122346.346:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 12:23:46.346 [16120:952:0208/122346.346:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 12:23:46.346 [16120:952:0208/122346.346:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 12:23:46.346 [16120:952:0208/122346.346:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 12:23:46.349 [16120:10168:0208/122346.349:ERROR:device_event_log_impl.cc(214)] [12:23:46.349] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 12:23:46.372 [16120:10168:0208/122346.372:ERROR:device_event_log_impl.cc(214)] [12:23:46.372] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 12:33:51.563 [13136:12888:0208/123351.563:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 12:33:51.563 [13136:12888:0208/123351.563:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 12:33:51.563 [13136:12888:0208/123351.563:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 12:33:51.563 [13136:12888:0208/123351.563:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 12:33:51.566 [13136:18668:0208/123351.566:ERROR:device_event_log_impl.cc(214)] [12:33:51.566] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 12:33:51.589 [13136:18668:0208/123351.589:ERROR:device_event_log_impl.cc(214)] [12:33:51.589] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 12:35:58.203 [1448:17616:0208/123558.203:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 12:35:58.203 [1448:17616:0208/123558.203:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 12:35:58.203 [1448:17616:0208/123558.203:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 12:35:58.203 [1448:17616:0208/123558.203:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 12:35:58.207 [1448:16776:0208/123558.207:ERROR:device_event_log_impl.cc(214)] [12:35:58.207] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 12:35:58.231 [1448:16776:0208/123558.231:ERROR:device_event_log_impl.cc(214)] [12:35:58.231] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 14:24:22.437 [8656:12048:0208/142422.436:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 14:24:22.438 [8656:12048:0208/142422.436:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 14:24:22.438 [8656:12048:0208/142422.436:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 14:24:22.438 [8656:12048:0208/142422.438:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 14:24:22.440 [8656:1856:0208/142422.440:ERROR:device_event_log_impl.cc(214)] [14:24:22.440] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 14:24:22.463 [8656:1856:0208/142422.463:ERROR:device_event_log_impl.cc(214)] [14:24:22.462] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 15:17:44.939 [16968:13764:0208/151744.939:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 15:17:44.940 [16968:13764:0208/151744.939:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 15:17:44.940 [16968:13764:0208/151744.939:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 15:17:44.940 [16968:13764:0208/151744.939:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 15:17:44.944 [16968:12116:0208/151744.944:ERROR:device_event_log_impl.cc(214)] [15:17:44.944] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 15:17:44.968 [16968:12116:0208/151744.967:ERROR:device_event_log_impl.cc(214)] [15:17:44.968] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 15:19:20.337 [9256:8116:0208/151920.337:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 15:19:20.338 [9256:8116:0208/151920.337:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+2월 08, 2022 15:19:20.338 [9256:8116:0208/151920.337:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+2월 08, 2022 15:19:20.338 [9256:8116:0208/151920.337:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+2월 08, 2022 15:19:20.341 [9256:20992:0208/151920.341:ERROR:device_event_log_impl.cc(214)] [15:19:20.341] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+2월 08, 2022 15:19:20.364 [9256:20992:0208/151920.364:ERROR:device_event_log_impl.cc(214)] [15:19:20.364] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)

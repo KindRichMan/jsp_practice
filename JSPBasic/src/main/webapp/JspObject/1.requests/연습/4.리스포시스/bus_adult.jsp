@@ -7,7 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-  <img href="bus_form.jsp">
-  <img src="repository/img3.png" width="300px" height="400px"><h1>어른 요금입니다.</h1></a>
+ <h1>성인 요금입니다.</h1>
+     <a href="bus_form.jsp">
+     <img src="repository/img3.png" width="200px" height="300px">
+     </a>
 </body>
 </html>

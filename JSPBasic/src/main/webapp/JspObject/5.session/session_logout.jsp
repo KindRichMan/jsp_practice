@@ -7,7 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-  <img href="bus_form.jsp">
-  <img src="repository/img3.png" width="300px" height="400px"><h1>어른 요금입니다.</h1></a>
+  <% session.invalidate(); 
+    response.sendRedirect("session_login.jsp"); 
+    %>
 </body>
 </html>

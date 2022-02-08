@@ -7,7 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-  <img href="bus_form.jsp">
-  <img src="repository/img3.png" width="300px" height="400px"><h1>어른 요금입니다.</h1></a>
+     <form action="req_bmi_result.jsp">
+     키: <input type="text" name="height" ></br>
+     몸무계:<input type="text" name="weight" >  
+     <input type="submit" value="전송">   
+     </form>
 </body>
 </html>

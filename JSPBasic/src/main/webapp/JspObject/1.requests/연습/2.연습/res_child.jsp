@@ -7,7 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-  <img href="bus_form.jsp">
-  <img src="repository/img3.png" width="300px" height="400px"><h1>어른 요금입니다.</h1></a>
+     <h1>미성년자입니다. 회원가입을 하실수 없습니다.</h1>
 </body>
 </html>
