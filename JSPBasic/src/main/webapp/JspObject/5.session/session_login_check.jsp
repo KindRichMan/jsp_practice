@@ -9,6 +9,7 @@
 <body>
 <% 
   request.setCharacterEncoding("utf-8");
+  
 
    String id = request.getParameter("id");
    String pw = request.getParameter("pw");
@@ -22,7 +23,7 @@
   <% if(id.equals("kkk1234")  && pw.equals("1111")){%> 
 	 <%   session.setAttribute("session_id",id);
 	   session.setAttribute("session_pw",pw);
-	   session.setAttribute("session_nickname",nickName);
+	   session.setAttribute("session_nick",nickName);
 	   response.sendRedirect("session_welcome.jsp");
 	   %>
   <% }else{%> 

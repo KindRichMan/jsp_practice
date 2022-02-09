@@ -13,7 +13,7 @@
     	//system.out.println(str);
     	
     	if(str.equals("peanut_cookie")){
-    		out.println("땅콩 쿠키가 존재합니다.<br/");
+    		out.println("땅콩 쿠키가 존재합니다.<br/>");
             String value = cookies[i].getValue();
             out.println("저장된 자료는 " + value + "입니다.");
             flag = true;
