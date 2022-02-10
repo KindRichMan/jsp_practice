@@ -49,6 +49,7 @@ public class JDBCSelect {
 			 System.out.println(rs.getString("uemail"));
 			 System.out.println("------------");
 	   }
+		 
     } catch(Exception e ) {
 		e.printStackTrace();
 	}
