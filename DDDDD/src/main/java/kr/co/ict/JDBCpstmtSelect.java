@@ -9,7 +9,7 @@ public class JDBCpstmtSelect {
 	String dbType = "com.mysql.cj.jdbc.Driver";
 		String dbUrl = "jdbc:mysql://localhost:3306/jdbcprac1";
 		String dbId = "root";
-		String dbPw = "mysql1";
+		String dbPw = "mysql";
 		
 		try {
 		
@@ -20,6 +20,7 @@ public class JDBCpstmtSelect {
 			Connection con = DriverManager.getConnection(dbUrl, dbId, dbPw);
 			
 			String sql ="SELECT * FROM userinfo WHERE uid=?";
+			
 			PreparedStatement pstmt = con.prepareStatement(sql);
 			pstmt.setString(1,  uId);
 			ResultSet rs = pstmt.executeQuery();
