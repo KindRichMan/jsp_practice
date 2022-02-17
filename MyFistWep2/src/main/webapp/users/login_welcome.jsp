@@ -23,8 +23,9 @@
 <body>
  <h1><%=sId %>님 접속을 환영합니다.</h1>
  <a href="login_update.jsp">정보수정하기</a><br/>
- <a href="logout.jsp"> 로그아웃하기</a><br/>  <!-- 세션파기 후 login_form.jsp로 보내주세요
-          login_form.jsp도 만약 로그인한 사용자가 접근하면 welcome페이지로 보내도록 로직을 살짝 수정해주세요. --> 
- <a href="member_out.jsp">회원탈퇴하기</a><br/>
+ <a href="logout.jsp"> 로그아웃하기</a><br/>  
+  <a href="member_out.jsp">회원탈퇴하기</a><br/>
+ <!-- 회원목록보기 링크 만들기 -->
+ <a href="user_list2.jsp">회원목록보기</a>
 </body>
-</html>
+</html>        

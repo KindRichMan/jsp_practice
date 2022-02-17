@@ -1,3 +1,5 @@
+<%@page import="java.util.List"%>
+<%@page import="kr.co.ict.UserDAO"%>
 <%@page import="java.sql.*"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -5,7 +7,7 @@
    // 전체 유저 목록을 가져오는 코드를 작성해보도록 하겠습니다.
    
    // 1. DB접속 변수 생성
-   
+  
    String dbType = "com.mysql.cj.jdbc.Driver";
     String dbUrl = "jdbc:mysql://localhost:3306/jdbcprac1";
     String dbId  = "root";
@@ -42,12 +44,17 @@
    }catch(Exception e){
 	  e.printStackTrace();
   }finally{
+	  
+	  
 	  // 문제는 현재 이 구문에서는 rs.next()가rs.close()를 한 이후에 배치되어 있어서
 	  // 에러가 발생합니다.
-	  con.close();
-	  pstmt.close();
-	  rs.close();
+	//  con.close();
+	//  pstmt.close();
+	//  rs.close();
   }
+    
+    
+    
   %>
 <!DOCTYPE html>
 <html>
