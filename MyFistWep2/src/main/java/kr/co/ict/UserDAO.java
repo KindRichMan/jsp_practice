@@ -100,66 +100,61 @@ public UserVO getUserDate(String sId){
 	  
 	  // 1. Connection, PreparedStatemtnt,ResultSet 변수 선언만 해주세요.
 	  // UserVO 변수 선언
-	   // try블럭 외부에서 써야하는 (Connection,PreparedStatment, ResultSet은 finally블럭에서도 사용)
-	// (UserVO는 return구문에서 사용)것들을 try진입 전에 먼저 선언합니다.
-	   
+	
 	   Connection con = null;
 	   PreparedStatement pstmt = null;
 	   ResultSet rs = null;
-	   UserVO user= null;
-	  
-	  // 2. try블럭 내부에서 DB연결을 해주세요. 필요한 URL, ID, PW는 상단에 멤버변수로 이미 존해합니다.
-	
-	   try {
-		     Class.forName(dbType);
-		    con = DriverManager.getConnection(dbUrl, dbId, dbPw);
-		     
-		   
-		 // 3. 쿼리문을 날려서 rs에 DB에서 가져온 정보를 받아주세요.
-		    String sql = "SELECT * FROM userinfo WHERE uid=?";
-		   pstmt = con.prepareStatement(sql);
-		   pstmt.setString(1, sId); 
-		   
-		   rs=pstmt.executeQuery();
-		    
-		// 4. UserVO 변수를 선언해주시고, rs에 저장된 데이터를 UserVO에 담습니다.
-		   
-		  
-		    if(rs.next()) {
-		    
-		    String uName = rs.getString("uname");
-		    String uId = rs.getString("uid");
-		    String uPw = rs.getString("upw");
-		    String uEmail = rs.getString("uemail");
-		    user = new UserVO(uName, uId, uPw, uEmail);
-			
-			
-		    }
+	   UserVO user =null ;
 	   
-	   
-	   }catch(Exception e) {
-		   e.printStackTrace();
-	   }finally {
-      
-		// 5. catch, finally 블럭을 작성해주시고 finally에서 자원회수까지 마쳐주세요.
-		   try {
-        	   con.close();
-            	 pstmt.close();
-            	 rs.close();  
-          }catch(Exception e) {
-        	  e.printStackTrace();
-          }
-                
+	   // try블럭 외부에서 써야하는 (Connection,PreparedStatment, ResultSet은 finally블럭에서도 사용)
+	   // (UserVO는 return구문에서 사용)것들을 try진입 전에 먼저 선언합니다.
+	try {
 		
-	   }
-	   
-	  
+		Class.forName(dbType);
+		con=DriverManager.getConnection(dbUrl,dbId,dbPw);
+		String sql ="SELECT *FROM userinfo WHERE uid=?";
+		 pstmt=con.prepareStatement(sql);
+		 pstmt.setString(1,sId);
+		 rs = pstmt.executeQuery();
+		
+		 if(rs.next()) {
+			 String uName = rs.getString("uname");
+			 String uId = rs.getString("uid");
+			 String uPw = rs.getString("upw");
+			 String uEmail = rs.getString("uemail");
+			 user = new UserVO(uName,uId,uPw,uEmail);
+		 }
+		 
+	}catch(Exception e) {
+		e.printStackTrace();
+	}finally {
+		try {
+			con.close();
+			pstmt.close();
+			rs.close();
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
 	 return user;//DB에서 UserVO에 데이터를 받아주신 다음 null대신 받아온 데이터를 리턴하세요.
 	 }	  
 } 
 	
 	 
         
+	
+	   
+	   
+	
+      
+	
+
+
+		
+	  
+	   
+	  
 	
 	 
 	

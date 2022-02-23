@@ -1,7 +1,7 @@
  <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <%
-    
+    String make= "make";
     // # 쿠키 생성 방법.
     // 1. 쿠키 객체를 생성 - 생성자의 매개값으로 쿠키의
     //    이름과 저장할 데이터를 입력
