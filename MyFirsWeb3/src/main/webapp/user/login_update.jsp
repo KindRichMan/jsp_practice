@@ -55,8 +55,8 @@
           <h1><%=sId %>님의 아이디의 정보를 수정합니다!</h1>
           <form action="update_check.jsp" method="post">
           <input type="password" name="pw" placeholder="비밀번호"><br/>
-          <input type="text" name="name" placeholder="이름" value="<%=tName%>"><br/>
-          <input type="email" name="email" placeholder="이메일" value="<%=tEmail%>"><br/>
+          <input type="text" name="name" placeholder="이름" value="<%=tName%>" required><br/>
+          <input type="email" name="email" placeholder="이메일" value="<%=tEmail%>"required><br/>
           <input type="submit" value="수정완료">
           <input type="reset" value="초기화">
           </form>
