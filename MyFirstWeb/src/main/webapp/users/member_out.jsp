@@ -1,3 +1,4 @@
+<%@page import="kr.co.ict.UserDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
  <%@page import="java.sql.*"%>
@@ -13,12 +14,13 @@
     
 
      String sId = (String)session.getAttribute("session_id");
-     
+    /* 
     String dbType = "com.mysql.cj.jdbc.Driver";
       String dbUrl = "jdbc:mysql://localhost:3306/jdbcprac1";
       String dbId = "root";
       String dbPw = "mysql";
        
+      
         try{
     	  
     	  Class.forName(dbType);
@@ -44,7 +46,12 @@
     	//  response.sendRedirect("login_form.jsp");
     	  
       }
-       
+       */
+       // 삭제로즉 구현 
+       UserDAO dao = new UserDAO();
+       dao.deleteUser(sId);
+    // 삭제가 성공했건 실패했건 로그아웃에 접근한 자체로 세션 파기
+       session.invalidate();
     
     %>
 <!DOCTYPE html>

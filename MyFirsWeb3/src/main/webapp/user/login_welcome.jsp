@@ -20,5 +20,6 @@
     <a href="login_update.jsp">정보수정하기</a></br>
     <a href="logout.jsp">로그아웃하기</a></br>
     <a href="member_out.jsp">회원탈퇴하기</a></br>
+    <a href="user_list2.jsp">회원목록보기</a>
 </body>
 </html>

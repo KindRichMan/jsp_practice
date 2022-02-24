@@ -4,7 +4,7 @@
     String sId = (String)session.getAttribute("session_id");
     if(sId != null){
     	response.sendRedirect("login_welcome.jsp");
-    }
+    }           
     %>
 <!DOCTYPE html>
 <html>

@@ -12,13 +12,15 @@
     String dbId = "root";
     String dbPw = "mysql";
     
+    PreparedStatement pstmt = null;
+    Connection con = null;
     ResultSet rs = null;
     try {
     	
     	Class.forName(dbType);
-    	Connection con = DriverManager.getConnection(dbUrl ,dbId, dbPw);
+    	 con = DriverManager.getConnection(dbUrl ,dbId, dbPw);
     	String sql = "SELECT *FROM userinfo ";
-    	PreparedStatement pstmt = con.prepareStatement(sql);
+    	 pstmt = con.prepareStatement(sql);
     	 rs = pstmt.executeQuery();
     	
     	//while(rs.next()){
@@ -33,6 +35,9 @@
     	e.printStackTrace();
     }finally{
     	
+    	//con.close();
+    	//pstmt.close();
+    	//rs.close();
     }
     
     %>

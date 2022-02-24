@@ -1,8 +1,10 @@
+<%@page import="kr.co.ict.UserDAO"%>
 <%@page import="javax.websocket.SendResult"%>
 <%@page import="java.sql.*"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <%
+   
     // 1. form에서 보낸 비번, 이름, 이메일을 변수로 저장해주세요.
    request.setCharacterEncoding("utf-8");
     String fPw = request.getParameter("fpw"); 
@@ -17,6 +19,7 @@
   if(sId == null){
 	   response.sendRedirect("login_form.jsp");
   }
+  /*
     // 3. DB접속정보 변수로 관리
       String dbType = "com.mysql.cj.jdbc.Driver";
       String dbUrl = "jdbc:mysql://localhost:3306/jdbcprac1";
@@ -49,6 +52,13 @@
    }finally{
 	   
    }
+    */
+    // 위쪽 3~6코드를 DAO로 대체해서 처리해주세요.
+    // DAO 생성.
+    UserDAO dao = new UserDAO();
+    
+    // update로직 호출
+    dao.UpdateCheck(sId, fPw, fName, fEmail  );
     %>
 <!DOCTYPE html>
 <html>

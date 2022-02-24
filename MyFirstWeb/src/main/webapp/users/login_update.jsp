@@ -13,7 +13,8 @@
 		// 로그인 안 한 사람이 해당 주소를 얻어서 접속한 경우
 		response.sendRedirect("login_form.jsp");
 	}
-	
+	String tName = "";
+	String tEmail = null;
 	/*
 	// 2. DB 연결
 	String dbType = "com.mysql.cj.jdbc.Driver";
@@ -65,7 +66,7 @@
 	// DAO내부에서 회원 1명의 정보만 가져오는 getUserDate 호출
 	UserVO user = dao.getUserDate(sId); // sId는 이미 세션에서 얻어왔습니다.
 	//3. 얻어온 user 내용물 확인
-	out.println(user + "<br/>");// UserVO에 toString메서드가 있어서 내용물이 출력됨.
+//	out.println(user + "<br/>");// UserVO에 toString메서드가 있어서 내용물이 출력됨.
 	// 4. user 내용물을 애래쪽 표현식에 getter로 집어넣어주기
 
 %>
