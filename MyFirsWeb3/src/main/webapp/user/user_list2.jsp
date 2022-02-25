@@ -1,3 +1,4 @@
+<%@page import="kr.co.ict.UserDAO"%>
 <%@page import="kr.co.ict.UserVO"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.util.List"%>
@@ -8,7 +9,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <%
-    
+  /*  
     String dbType = "com.mysql.cj.jdbc.Driver";
     String dbUrl = "jdbc:mysql://localhost:3306/jdbcprac1";
     String dbId = "root";
@@ -51,16 +52,25 @@
     	
     }
     
+    */
+    
+     UserDAO dao = new UserDAO();
+       List<UserVO> userList = dao.getAllUserList();
     
     %>
 <!DOCTYPE html>
 <html>
 <head>
+  <style>
+     .db{position: relative;}
+  </style>
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-         <table border="1">
+       <fieldset>
+       <legend>DB전제 정보입니다</legend>
+         <table  class="db" border="1">
             <thead>
              <tr>
                 <th>유저이름</th>           
@@ -79,6 +89,7 @@
                 </tr>   
            <%} %> 
           </tbody>
-        </table>                    
+        </table>
+       </fieldset>                     
 </body>
 </html>

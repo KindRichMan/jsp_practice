@@ -8,24 +8,54 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.sql.DataSource;
+
 // DAO 클래스는 DB연동을 전담하여 처리합니다.
 public class UserDAO {
 	
 	// DB접속에 필요한 변수들을 아래에 선언합니다.
-	private String dbType = "com.mysql.cj.jdbc.Driver";
-	private String dbUrl = "jdbc:mysql://localhost:3306/jdbcprac1";
-	private String dbId = "root";
-	private String dbPw = "mysql";
+//   커넥션풀 처리로 인한 미사용	
+//	private String dbType = "com.mysql.cj.jdbc.Driver";
+//	private String dbUrl = "jdbc:mysql://localhost:3306/jdbcprac1";
+//	private String dbId = "root";
+//	private String dbPw = "mysql";
+	private DataSource ds = null;
 
 	// 성성자를 이용해 생성할 때 자동으로 Class.forName()을 실행하게 만듭니다.
 	// 어떤 쿼리문을 실행하더라도
-	public UserDAO() {
+//		public UserDAO() {
+//			try {
+//				Class.forName(dbType);
+//			
+//			}catch(Exception e) {
+//				e.printStackTrace();
+//			}
+//		}
+	
+	  // 싱글턴 패턴 처리.
+	  // 3. DAO 내부에 멤버변수로 UserDAO를 하나 생성해줍니ㅏ.
+	private static UserDAO dao = new UserDAO();
+	  // 싱글턴은 요청시마다 DAO를 매번 새로 생성하지 않고, 먼저 하나를 생성해둔 다음 
+	  // 사용자요청때는 이미 생성된 DAO의 주소값만 공유해서
+	  // DAO생성에 필요한 시간을 절약하기 위해 사용합니다.
+	  // 1. 생성자는 private으로 처리해 외부에서 생성명령을 내릴 수 없게 처리합니다.
+	private UserDAO() {
 		try {
-			Class.forName(dbType);
-		
-		}catch(Exception e) {
+			Context ct = new InitialContext();
+			ds = (DataSource)ct.lookup("java:comp/env/jdbc/mysql");
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+	// 2. static 키워드를 이용해서 단 한번만 생성하고, 그 이후로는 
+	// 주소를 공유하는 getInstance() 메서드를 생성합니다.
+	public static UserDAO getInstance() {
+		if(dao == null) {
+			dao = new UserDAO();
+		}
+		return dao;
 	}
 
 
@@ -53,7 +83,8 @@ public class UserDAO {
 	  
 	  try {
 	  // Connection, PreparedStatement, ResultSet을 선언합니다.
-	  con = DriverManager.getConnection(dbUrl,dbId, dbPw);
+		  con = ds.getConnection();
+
   	//3. SELECT * FROM userinfo
   	 String sql = "SELECT * FROM userinfo";
   	 
@@ -111,8 +142,9 @@ public UserVO getUserDate(String sId){
 	  // 2. try블럭 내부에서 DB연결을 해주세요. 필요한 URL, ID, PW는 상단에 멤버변수로 이미 존해합니다.
 	
 	   try {
-		     Class.forName(dbType);
-		    con = DriverManager.getConnection(dbUrl, dbId, dbPw);
+//		     Class.forName(dbType);
+		     con = ds.getConnection();
+
 		     
 		   
 		 // 3. 쿼리문을 날려서 rs에 DB에서 가져온 정보를 받아주세요.
@@ -167,8 +199,9 @@ public UserVO getUserDate(String sId){
 	   PreparedStatement pstmt = null;
 	  
 	   try {
-		   Class.forName(dbType);
-		    con = DriverManager.getConnection(dbUrl, dbId, dbPw);
+//		   Class.forName(dbType);
+		   con = ds.getConnection();
+
 		     
 		  String sql = "UPDATE userinfo SET upw=?, uname=?, uemail=? WHERE uid=?";
 		  pstmt = con.prepareStatement(sql);
@@ -208,8 +241,9 @@ public UserVO getUserDate(String sId){
 	   PreparedStatement pstmt = null;
 	  
 	   try {
-		   Class.forName(dbType);
-		    con = DriverManager.getConnection(dbUrl, dbId, dbPw);
+//		   Class.forName(dbType);
+		   con = ds.getConnection();
+
 		     
 		  String sql = "DELETE FROM userinfo WHERE uid =?";
 		  pstmt = con.prepareStatement(sql);
@@ -232,8 +266,9 @@ public UserVO getUserDate(String sId){
 	   PreparedStatement pstmt = null;
 	  
 	   try {
-		   Class.forName(dbType);
-		    con = DriverManager.getConnection(dbUrl, dbId, dbPw);
+//		   Class.forName(dbType);
+		   con = ds.getConnection();
+
 		     
 		  String sql = "INSERT INTO userinfo VALUE(?,?,?,?)";
 		  pstmt = con.prepareStatement(sql);

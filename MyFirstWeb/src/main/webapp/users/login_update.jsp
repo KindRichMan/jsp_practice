@@ -62,7 +62,7 @@
 	
 	// 1. DAO 생성
 	
-	       UserDAO dao = new UserDAO();
+	       UserDAO dao = UserDAO.getInstance();
 	// DAO내부에서 회원 1명의 정보만 가져오는 getUserDate 호출
 	UserVO user = dao.getUserDate(sId); // sId는 이미 세션에서 얻어왔습니다.
 	//3. 얻어온 user 내용물 확인

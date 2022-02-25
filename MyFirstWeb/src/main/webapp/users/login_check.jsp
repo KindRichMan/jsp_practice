@@ -33,7 +33,7 @@
 		ResultSet rs = pstmt.executeQuery();
 		*/
 		// 1~3번까지의 로직을 DAO의 getUserDate를 사용해 수행하도록 변경해주세요.
-		   UserDAO dao = new UserDAO();
+		   UserDAO dao = UserDAO.getInstance();
 		 UserVO user = dao.getUserDate(fId);     
 		 System.out.println("DB에서 받아온 데이터:" + user);
 		

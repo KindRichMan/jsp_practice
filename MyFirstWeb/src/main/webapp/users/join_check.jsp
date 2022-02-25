@@ -57,7 +57,7 @@
     */
     
     
-    UserDAO dao = new UserDAO();
+    UserDAO dao = UserDAO.getInstance();
     dao.insertUser(id,pw,name,email);
     %>
 <!DOCTYPE html>
