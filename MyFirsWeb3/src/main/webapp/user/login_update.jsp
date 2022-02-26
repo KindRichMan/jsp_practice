@@ -1,3 +1,5 @@
+<%@page import="kr.co.ict.UserVO"%>
+<%@page import="kr.co.ict.UserDAO"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.PreparedStatement"%>
 <%@page import="java.sql.Connection"%>
@@ -11,7 +13,7 @@
     	response.sendRedirect("login_form.jsp");
     }
     
-    
+   /* 
     String dbType= "com.mysql.cj.jdbc.Driver";
     String dbUrl ="jdbc:mysql://localhost:3306/jdbcprac1";
     String dbId = "root";
@@ -40,8 +42,10 @@
     	
     }
     
-    
-    
+    */
+        UserDAO dao = new UserDAO();
+        UserVO user = dao.getUserData(sId);
+        System.out.println(user + "<br/>"); 
     
     
     %>
@@ -55,8 +59,8 @@
           <h1><%=sId %>님의 아이디의 정보를 수정합니다!</h1>
           <form action="update_check.jsp" method="post">
           <input type="password" name="pw" placeholder="비밀번호"><br/>
-          <input type="text" name="name" placeholder="이름" value="<%=tName%>" required><br/>
-          <input type="email" name="email" placeholder="이메일" value="<%=tEmail%>"required><br/>
+          <input type="text" name="name" placeholder="이름" value="<%=user.getuName()%>" required><br/>
+          <input type="email" name="email" placeholder="이메일" value="<%=user.getuEmail()%>"required><br/>
           <input type="submit" value="수정완료">
           <input type="reset" value="초기화">
           </form>

@@ -76,16 +76,17 @@ public class UserDAO {
 	   UserVO user= null;
 	   
 	   try {
-		      con = DriverManager.getConnection(dbUrl,dbId,dbPw);
-			   String sql = "SELECT * FROM userinfo WHERE uid=?";
+		   Class.forName(dbType);
+		        con = DriverManager.getConnection(dbUrl,dbId,dbPw);
+			    String sql = "SELECT * FROM userinfo WHERE uid=?";
 			    pstmt = con.prepareStatement(sql);
 			    pstmt.setString(1,sId);
 			    rs = pstmt.executeQuery();
 			   
 			   if(rs.next()){
-		    		  String uName = rs.getString("uname");
-		    		  String uId = rs.getString("id");
-		    		  String uPw = rs.getString("pw");
+		     		  String uName = rs.getString("uname");
+		    		  String uId = rs.getString("uid");
+		    		  String uPw = rs.getString("upw");
 		    		  String uEmail = rs.getString("uemail");
 		    		  
 		    		  user = new UserVO(uName,uId, uPw, uEmail);
