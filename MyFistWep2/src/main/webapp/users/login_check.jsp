@@ -35,7 +35,7 @@
 		//    DB에 적재되어있던 비밀번호를 마저 사용자 입력 비밀번호와 비교해 둘 다 일치하면 세션 발급
 		//    그렇지 않다면 로그인에 실패했습니다 메세지가 뜨도록 처리
 		*/
-		UserDAO dao = new UserDAO();
+		UserDAO dao = UserDAO.getInstance();
 		UserVO  user = dao.getUserDate(fId);
 		
 		if(user != null){

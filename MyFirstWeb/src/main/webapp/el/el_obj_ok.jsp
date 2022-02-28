@@ -15,7 +15,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-    <%=name %>님의 별명은 <%= nick%>입니다.
+<!--  <%=name %>님의 별명은 <%= nick%>입니다.-->
     --------------------EL식 출력-----------------------<br/>
  이름 :   ${param.name }<br/>
  별명 :   ${param.nick }<br/>

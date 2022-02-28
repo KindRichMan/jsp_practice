@@ -8,24 +8,54 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.sql.DataSource;
+
 // DAO 클래스는 DB연동을 전담하여 처리합니다.
 public class UserDAO {
 	
 	// DB접속에 필요한 변수들을 아래에 선언합니다.
-	private String dbType = "com.mysql.cj.jdbc.Driver";
-	private String dbUrl = "jdbc:mysql://localhost:3306/jdbcprac1";
-	private String dbId = "root";
-	private String dbPw = "mysql";
+			/*		private String dbType = "com.mysql.cj.jdbc.Driver";
+					private String dbUrl = "jdbc:mysql://localhost:3306/jdbcprac1";
+					private String dbId = "root";
+				    private String dbPw = "mysql";
+				    */   //servers 내부에 context.xml에 이미 만들어놓음    
+	private DataSource ds;
 
 	// 생성자를 이용해 생성할 때 자동으로 Class.forName()을 실행하게 만듭니다.
 	// 어떤 쿼리문을 실행하더라도
-	public UserDAO() {
+//	public UserDAO() {
+//		try {
+//			Class.forName(dbType);
+//		
+//		}catch(Exception e) {
+//			e.printStackTrace();
+//		}
+//	}
+	
+	
+	//싱글턴 패턴처리
+	//싱글턴은 요청시마다 DAO를 매번 새로 생성하지않고, 먼저 하나를 생성해둔 다음
+	// 사용자가 요청때는 이미 생성된 DAO의 주소값만 공유해서
+	// DAO생성에 필요한 시간을 정략하기 위해 사용합니다.
+	// 1. 생성자는 private으로 처리해 외부에서 생성명령을 없기 처리 합니다.
+	
+	private static UserDAO dao = new UserDAO();
+	
+	private UserDAO() {
 		try {
-			Class.forName(dbType);
-		
-		}catch(Exception e) {
+			Context ct = new InitialContext();
+			ds = (DataSource)ct.lookup("java:comp/env/jdbc/mysql");
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+	public static UserDAO getInstance() {
+		if(dao == null) {
+			dao = new UserDAO();
+		}
+		return dao;
 	}
 
 
@@ -53,7 +83,7 @@ public class UserDAO {
 	  
 	  try {
 	  // Connection, PreparedStatement, ResultSet을 선언합니다.
-	  con = DriverManager.getConnection(dbUrl,dbId, dbPw);
+	  con = ds.getConnection();
   	//3. SELECT * FROM userinfo
   	 String sql = "SELECT * FROM userinfo";
   	 
@@ -110,8 +140,8 @@ public UserVO getUserDate(String sId){
 	   // (UserVO는 return구문에서 사용)것들을 try진입 전에 먼저 선언합니다.
 	try {
 		
-		Class.forName(dbType);
-		con=DriverManager.getConnection(dbUrl,dbId,dbPw);
+		
+		 con = ds.getConnection();
 		String sql ="SELECT *FROM userinfo WHERE uid=?";
 		 pstmt=con.prepareStatement(sql);
 		 pstmt.setString(1,sId);
@@ -139,14 +169,100 @@ public UserVO getUserDate(String sId){
 	
 	 return user;//DB에서 UserVO에 데이터를 받아주신 다음 null대신 받아온 데이터를 리턴하세요.
 	 }	  
+
+      public void UpdateCheck(String uId, String uPw, String uName, String uEmail) {
+    	  
+    	  Connection con = null;
+    	  PreparedStatement pstmt = null;
+    	  
+    	    
+    	  try {
+    		  
+    		  con = ds.getConnection();
+    		  String sql="Update  userinfo SET uname=?, upw=?,uemail=? WHERE uid=? ";
+    		     pstmt = con.prepareStatement(sql);
+    		     pstmt.setString (1,uName);
+    			 pstmt.setString (2,uPw);
+    			 pstmt.setString (3,uEmail);
+    			 pstmt.setString (4,uId);
+    			  
+    			  pstmt.executeUpdate();
+    		  
+    		    }catch(Exception e) {
+    		  e.printStackTrace();
+    		  
+    	  }finally {
+    		  try {
+    			con.close();
+    			pstmt.close();
+    		  }catch(Exception e) {
+    			  e.printStackTrace();
+    		  }finally {
+    			  
+    		  }
+    	  }
+      }
+      
+      public void deleteUser(String sId) {
+    	  
+    	  Connection con = null; 
+    	  PreparedStatement pstmt= null ;
+    	  
+    	  try {
+    		  
+    		  con = ds.getConnection();
+    		  String sql = "DELETE FROM userinfo WHERE uid=?";
+    		  pstmt = con.prepareStatement(sql);
+    		  pstmt.setString(1, sId);
+    		  
+    		  pstmt.executeUpdate();
+    		  
+    	  }catch(Exception e){
+    		  e.printStackTrace();
+    	  }finally {
+    		  
+    	  }
+    	  
+      }
+      
+      public void insertUser(String uName,String uId,String uPw,String uEmail){
+    	  PreparedStatement pstmt = null ;
+    	  Connection con = null;
+    	  try {
+    		  
+    		  con = ds.getConnection();
+    		  String sql = "INSERT INTO userinfo VALUE(?,?,?,?)";
+    		  pstmt= con.prepareStatement(sql);
+    		  pstmt.setString(1,uName);
+    		  pstmt.setString(2,uId);
+    		  pstmt.setString(3,uPw);
+    		  pstmt.setString(4,uEmail);
+    		  
+    		  pstmt.executeUpdate();
+    		   
+    		  
+    		  
+    	  }catch(Exception e) {
+    		  
+    	  }finally {
+    		  
+    	  }
+      }
 } 
 	
 	 
+    	
         
 	
 	   
 	   
 	
+    			
+    		 
+    		  
+    		  
+    		  
+    	
       
 	
 

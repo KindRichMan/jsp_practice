@@ -1,3 +1,4 @@
+<%@page import="kr.co.ict.UserDAO"%>
 <%@page import="javax.websocket.SendResult"%>
 <%@page import="java.sql.*"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
@@ -17,7 +18,9 @@
   if(sId == null){
 	   response.sendRedirect("login_form.jsp");
   }
-    // 3. DB접속정보 변수로 관리
+    
+  /*
+  // 3. DB접속정보 변수로 관리
       String dbType = "com.mysql.cj.jdbc.Driver";
       String dbUrl = "jdbc:mysql://localhost:3306/jdbcprac1";
       String dbId = "root";
@@ -49,6 +52,11 @@
    }finally{
 	   
    }
+    */
+    
+       UserDAO dao =UserDAO.getInstance();
+       dao.UpdateCheck(sId, fPw, fName, fEmail);
+       
     %>
 <!DOCTYPE html>
 <html>

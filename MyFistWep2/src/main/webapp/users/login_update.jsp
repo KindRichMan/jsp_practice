@@ -61,7 +61,7 @@
 	
 	// 1. DAO 생성
 	
-	       UserDAO dao = new UserDAO();
+	       UserDAO dao =UserDAO.getInstance();
 	       UserVO user = dao.getUserDate(sId);
 	       out.println(user + "<br/>"); 
 %>
