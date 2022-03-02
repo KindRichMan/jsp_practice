@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="JSPBasic" path="/JSPBasic" reloadable="true" source="org.eclipse.jst.jee.server:JSPBasic"/><Context docBase="JDBCPrj" path="/JDBCPrj" reloadable="true" source="org.eclipse.jst.jee.server:JDBCPrj"/><Context docBase="MyFirstWeb" path="/MyFirstWeb" reloadable="true" source="org.eclipse.jst.jee.server:MyFirstWeb"/><Context docBase="MyFistWep2" path="/MyFistWep2" reloadable="true" source="org.eclipse.jst.jee.server:MyFistWep2"/><Context docBase="MyFirsWeb3" path="/MyFirsWeb3" reloadable="true" source="org.eclipse.jst.jee.server:MyFirsWeb3"/></Host>
+      <Context docBase="JSPBasic" path="/JSPBasic" reloadable="true" source="org.eclipse.jst.jee.server:JSPBasic"/><Context docBase="JDBCPrj" path="/JDBCPrj" reloadable="true" source="org.eclipse.jst.jee.server:JDBCPrj"/><Context docBase="MyFirstWeb" path="/MyFirstWeb" reloadable="true" source="org.eclipse.jst.jee.server:MyFirstWeb"/><Context docBase="MyFistWep2" path="/MyFistWep2" reloadable="true" source="org.eclipse.jst.jee.server:MyFistWep2"/><Context docBase="MyFirsWeb3" path="/MyFirsWeb3" reloadable="true" source="org.eclipse.jst.jee.server:MyFirsWeb3"/><Context docBase="MyFirstWeb4" path="/MyFirstWeb4" reloadable="true" source="org.eclipse.jst.jee.server:MyFirstWeb4"/></Host>
     </Engine>
   </Service>
 </Server>
