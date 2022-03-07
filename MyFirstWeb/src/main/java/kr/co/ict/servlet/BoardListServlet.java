@@ -40,6 +40,7 @@ public class BoardListServlet extends HttpServlet {
 		List<BoardVO> boardList = dao.getAllboardList();
 		// 3. request.setAttribute로 바인딩하기
 		//List<BoardVO> boardList를 바로 바인딩할수도 있습니다.
+		System.out.println(boardList);//자료가 들어오는지 확인한다.
 		
 		request.setAttribute("boardList", boardList );
 			
