@@ -11,15 +11,15 @@
        <table border="1">
 	      <tr>
 	           <th>글제목</th>
-	           <th><input type="text" name="title" placeholder="글제목"></th>
+	           <th><input type="text" name="title" placeholder="글제목"required></th>
 	      </tr>
 	       <tr>
 	           <th>글내용</th>
-	           <th><input type="text" name="content" placeholder="글내용"></th>
+	           <th><textarea rows="30 cols="50" name="content" placeholder="본문을 입력해주세요."required></textarea></th>
 	       </tr>
 	       <tr>
 	           <th>글쓴이</th>
-	           <th><input type="text" name="writer" placeholder="글쓴이"></th>
+	           <th><input type="text" name="writer" placeholder="글쓴이"required></th>
 	       </tr>
 	       <tr>
 	          <th colspan="2"> <input type="submit" value="서블릿으로 보내기">

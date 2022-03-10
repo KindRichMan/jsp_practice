@@ -1,15 +1,30 @@
 package kr.co.ict;
 
 public class UserVO {
+	// VO는 특정 테이블의 자료를 자바형식으로 저장하기 위해 선언합니다.
+	// 1. 담당할 테이블의 컬럼을 전부 변수로 만듭니다.
+	// 1. 담당할 테이블의 컬럼을 전부 변수로 만듭니다.
 	private String uName;
 	private String uId;
 	private String uPw;
 	private String uEmail;
 	
+	// 2. 생성자. getter, setter를 만들어주세요.
+	
+	public UserVO(String uName, String uId, String uPw, String uEmail) {
+		super();
+		this.uName = uName;
+		this.uId = uId;
+		this.uPw = uPw;
+		this.uEmail = uEmail;
+	}
 	
 	public String getuName() {
 		return uName;
 	}
+	
+	
+
 	public void setuName(String uName) {
 		this.uName = uName;
 	}
@@ -31,20 +46,18 @@ public class UserVO {
 	public void setuEmail(String uEmail) {
 		this.uEmail = uEmail;
 	}
-	public UserVO(String uName, String uId, String uPw, String uEmail) {
-		super();
-		this.uName = uName;
-		this.uId = uId;
-		this.uPw = uPw;
-		this.uEmail = uEmail;
-	}
+
+
+	
+	
+	// 3. (선택)toString을 만들어주세요.
+	// toString 은 콘솔이나 화면에 UserVO를 찍었을때 주소대신 내부 데이터가 나오도록 해 줍니다.
+	// source -> generate toString()
+	
 	@Override
 	public String toString() {
 		return "UserVO [uName=" + uName + ", uId=" + uId + ", uPw=" + uPw + ", uEmail=" + uEmail + "]";
 	}
-	
-	
-	
-	
+	 
 
 }

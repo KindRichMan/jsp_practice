@@ -42,6 +42,14 @@
     </c:forEach>
         
     
+    <hr/>
+    
+    <c:set var="arr" value= '<%= new int[]{10, 20, 30, 40, 50}%>'/>
+    <c:forEach var="i" items="${arr }">
+    ${i }&nbsp;
+    </c:forEach>
+    
+    
     
 </body>
 </html>

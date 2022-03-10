@@ -8,9 +8,9 @@
 </head>
 <body>
         <form action="http://localhost:8181/MyFistWep2/spring" method="post">
-        <input type="text" name="jsp" placeholde="jsp"><br/>
-        <input type="text" name="boot" placeholde="boot"><br/>
-        <input type="text" name="jpa" placeholde="jpa"><br/>
+        <input type="text" name="jsp" placeholder="jsp"><br/>
+        <input type="text" name="boot" placeholder="boot"><br/>
+        <input type="text" name="jpa" placeholder="jpa"><br/>
         <input type="submit" value="전송">
         </form>
 </body>

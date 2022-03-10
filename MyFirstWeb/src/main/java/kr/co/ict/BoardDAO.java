@@ -115,6 +115,8 @@ public class BoardDAO {
 		// try블럭 진입 전 Connection, PreparedStatement 선언
 		Connection con = null;
 		PreparedStatement pstmt = null;
+		
+		 
 		try {
 			// Connection, PreparedStatement, ResultSet을 선언합니다.
 			con = ds.getConnection();
@@ -142,6 +144,125 @@ public class BoardDAO {
 				se.printStackTrace();
 			}
 		}	
-	} 
+	
+	
+	}
 
+	// 글 한개가 피룡한 상황이므로 BoardVO 하나면 처리 가능
+	// "SELECT * FROM boardinfo WHERE board_num=?"
+	public BoardVO getBoardDetail(int board_num) {
+		
+		
+		Connection con = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		BoardVO board= null;
+		
+		//BoardVO board = new ArrayList<>();
+		
+		try {
+			con=ds.getConnection();
+			
+			String sql="SELECT *FROM boardinfo WHERE board_num=?";
+		    pstmt = con.prepareStatement(sql);
+		    pstmt.setInt(1, board_num);
+		    
+		      rs= pstmt.executeQuery();
+		  
+		    if(rs.next()) {
+		    	int boardNum = rs.getInt("board_num");
+		    	String title = rs.getString("title");
+		    	String content = rs.getString("content");
+		    	String writer = rs.getString("writer");
+		    	Date bdate = rs.getDate("bdate");
+				Date mdate = rs.getDate("mdate");
+		    	int hit = rs.getInt("hit");
+		    	
+		    	board = new BoardVO(boardNum, title, content, writer, bdate, mdate, hit);
+		    }
+			
+		    
+		}catch(Exception e) {
+		 e.printStackTrace();
+		 
+	}finally {
+		try {
+			con.close();
+			pstmt.close();
+			rs.close();
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+	}
+	return board;
+	}
+	
+	
+	// deleteBoard 메서드를 만들어서 삭제처리가 되게 만들어주시고
+	// 서블릿에서 해당 메서드를 호출해 실제로 삭제 버튼을 누르면 DB에서 해당 변호 글이 삭제되게 해주세요
+	// 비 select 구문이므로 리턴자료형 void
+	// DELETE FROM boardinfo WHERE board_num=?
+	public void deleteBoard(int board_num) {
+		  
+		  Connection con = null;
+		   PreparedStatement pstmt = null;
+		  
+		   try {
+//			   Class.forName(dbType);
+			   con = ds.getConnection();
+
+			     
+			  String sql = "DELETE FROM boardinfo WHERE board_num =?";
+			  pstmt = con.prepareStatement(sql);
+			   pstmt.setInt(1, board_num);
+			  pstmt.executeUpdate();
+			
+			    
+		     }catch(Exception e) {
+			   e.printStackTrace();
+		     }finally {
+		    	 
+		    	 
+		     }
+		  
+	  }
+	
+	
+	
+	public void updateBoard(String title, String content, int board_num) {
+		  Connection con = null;
+		   PreparedStatement pstmt = null;
+		  
+		   try {
+//			   Class.forName(dbType);
+			   con = ds.getConnection();
+
+			     
+			  String sql = "UPDATE boardinfo SET title=?, content=?,mdate=now() WHERE board_num=?";
+			  pstmt = con.prepareStatement(sql);
+			  pstmt.setString(1, title);
+			  pstmt.setString(2, content);
+			//pstmt.setInt(3, mdate);
+			  pstmt.setInt(3, board_num);
+			  
+			  pstmt.executeUpdate();
+			 
+			
+			    
+		     }catch(Exception e) {
+			   e.printStackTrace();
+		   }finally {
+	    
+			try {
+			   
+	      	   con.close();
+	          	 pstmt.close();
+	          	 
+	        }catch(Exception e) {
+	      	  e.printStackTrace();
+	        }
+	              
+			
+		   }
+	}	   
 }
